@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Mac,终端,Git," />
 
 
 
@@ -79,17 +79,20 @@
 
 
 
-<meta name="description" content="hello,every body">
-<meta name="keywords" content="善诊开发">
-<meta property="og:type" content="website">
-<meta property="og:title" content="善诊开发团队技术博客">
-<meta property="og:url" content="http://shan-zhen-blooger.github.io/archives/index.html">
+<meta name="description" content="并不适合阅读的个人文档。  git revert 和 git reset 的区别 先看图：  sourceTree 中 revert 译为提交回滚，作用为忽略你指定的版本，然后提交一个新的版本。新的版本中已近删除了你所指定的版本。 reset 为 重置到这次提交，将内容重置到指定的版本。git reset 命令后面是需要加2种参数的：–-hard 和 –-soft。这条命令默认情况下是 -–so">
+<meta name="keywords" content="Mac,终端,Git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Git 代码回滚">
+<meta property="og:url" content="http://shan-zhen-blooger.github.io/2017/02/16/2017-02-16-Git-代码回滚/index.html">
 <meta property="og:site_name" content="善诊开发团队技术博客">
-<meta property="og:description" content="hello,every body">
+<meta property="og:description" content="并不适合阅读的个人文档。  git revert 和 git reset 的区别 先看图：  sourceTree 中 revert 译为提交回滚，作用为忽略你指定的版本，然后提交一个新的版本。新的版本中已近删除了你所指定的版本。 reset 为 重置到这次提交，将内容重置到指定的版本。git reset 命令后面是需要加2种参数的：–-hard 和 –-soft。这条命令默认情况下是 -–so">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://ww3.sinaimg.cn/large/006tNbRwgy1fcr9tu6vdjj30t30ez0y8.jpg">
+<meta property="og:updated_time" content="2017-07-24T02:50:59.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="善诊开发团队技术博客">
-<meta name="twitter:description" content="hello,every body">
+<meta name="twitter:title" content="Git 代码回滚">
+<meta name="twitter:description" content="并不适合阅读的个人文档。  git revert 和 git reset 的区别 先看图：  sourceTree 中 revert 译为提交回滚，作用为忽略你指定的版本，然后提交一个新的版本。新的版本中已近删除了你所指定的版本。 reset 为 重置到这次提交，将内容重置到指定的版本。git reset 命令后面是需要加2种参数的：–-hard 和 –-soft。这条命令默认情况下是 -–so">
+<meta name="twitter:image" content="https://ww3.sinaimg.cn/large/006tNbRwgy1fcr9tu6vdjj30t30ez0y8.jpg">
 
 
 
@@ -119,13 +122,13 @@
 
 
 
-  <link rel="canonical" href="http://shan-zhen-blooger.github.io/archives/"/>
+  <link rel="canonical" href="http://shan-zhen-blooger.github.io/2017/02/16/2017-02-16-Git-代码回滚/"/>
 
 
 
 
 
-  <title>Archive | 善诊开发团队技术博客</title>
+  <title>Git 代码回滚 | 善诊开发团队技术博客</title>
   
 
 
@@ -144,7 +147,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -278,185 +281,180 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://shan-zhen-blooger.github.io/2017/02/16/2017-02-16-Git-代码回滚/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="善诊">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="善诊开发团队技术博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">Git 代码回滚</h1>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-16T00:00:00+08:00">
+                2017-02-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        Um..! 4 posts in total. Keep on posting.
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2017">2017</h1>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/07/19/2017-07-19-Swift的HMAC和SHA1加密/" itemprop="url">
-              
-                <span itemprop="name">Swift的HMAC和SHA1加密</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-07-19T00:00:00+08:00"
-              content="2017-07-19" >
-          07-19
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/02/16/2017-02-16-Git-代码回滚/" itemprop="url">
-              
-                <span itemprop="name">Git 代码回滚</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-02-16T00:00:00+08:00"
-              content="2017-02-16" >
-          02-16
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/02/15/2017-02-15-Git指令整理/" itemprop="url">
-              
-                <span itemprop="name">Git指令整理</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-02-15T00:00:00+08:00"
-              content="2017-02-15" >
-          02-15
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
+        <blockquote>
+<p>并不适合阅读的个人文档。</p>
+</blockquote>
+<h1 id="git-revert-和-git-reset-的区别"><a href="#git-revert-和-git-reset-的区别" class="headerlink" title="git revert 和 git reset 的区别"></a><strong>git revert</strong> 和 <strong>git reset</strong> 的区别</h1><p> 先看图：</p>
+<p><img src="https://ww3.sinaimg.cn/large/006tNbRwgy1fcr9tu6vdjj30t30ez0y8.jpg" alt=""></p>
+<p><strong>sourceTree</strong> 中 <strong>revert</strong> 译为<strong><code>提交回滚</code></strong>，作用为忽略你指定的版本，然后提交一个新的版本。新的版本中已近删除了你所指定的版本。</p>
+<p><strong>reset</strong> 为 <strong>重置到这次提交</strong>，将内容重置到指定的版本。<code>git reset</code> 命令后面是需要加2种参数的：<code>–-hard</code> 和 <code>–-soft</code>。这条命令默认情况下是 <code>-–soft</code>。</p>
+<p>执行上述命令时，这该条commit号之 后（时间作为参考点）的所有commit的修改都会退回到git缓冲区中。使用<code>git status</code> 命令可以在缓冲区中看到这些修改。而如果加上<code>-–hard</code>参数，则缓冲区中不会存储这些修改，git会直接丢弃这部分内容。可以使用 <code>git push origin HEAD --force</code> 强制将分区内容推送到远程服务器。</p>
+<h4 id="代码回退"><a href="#代码回退" class="headerlink" title="代码回退"></a>代码回退</h4><p>默认参数 <code>-soft</code>,所有commit的修改都会退回到git缓冲区<br>参数<code>--hard</code>，所有commit的修改直接丢弃</p>
+<pre><code>$ git reset --hard HEAD^         回退到上个版本
+$ git reset --hard commit_id    退到/进到 指定commit_id
+</code></pre><p>推送到远程    </p>
+<pre><code>$ git push origin HEAD --force
+</code></pre><h4 id="可以吃的后悔药-gt-版本穿梭"><a href="#可以吃的后悔药-gt-版本穿梭" class="headerlink" title="可以吃的后悔药-&gt;版本穿梭"></a>可以吃的后悔药-&gt;版本穿梭</h4><p>当你回滚之后，又后悔了，想恢复到新的版本怎么办？</p>
+<p>用<code>git reflog</code>打印你记录你的每一次操作记录</p>
+<pre><code>$ git reflog
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/02/06/2017-02-06-快速搭建个人博客/" itemprop="url">
-              
-                <span itemprop="name">快速搭建个人博客</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-02-06T00:00:00+08:00"
-              content="2017-02-06" >
-          02-06
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+输出：
+c7edbfe HEAD@{0}: reset: moving to c7edbfefab1bdbef6cb60d2a7bb97aa80f022687
+470e9c2 HEAD@{1}: reset: moving to 470e9c2
+b45959e HEAD@{2}: revert: Revert &quot;add img&quot;
+470e9c2 HEAD@{3}: reset: moving to 470e9c2
+2c26183 HEAD@{4}: reset: moving to 2c26183
+0f67bb7 HEAD@{5}: revert: Revert &quot;add img&quot;
+</code></pre><p>找到你操作的id如：<code>b45959e</code>，就可以回退到这个版本</p>
+<pre><code>$ git reset --hard b45959e
+</code></pre>
       
-
     </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Mac/" rel="tag"># Mac</a>
+          
+            <a href="/tags/终端/" rel="tag"># 终端</a>
+          
+            <a href="/tags/Git/" rel="tag"># Git</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/02/15/2017-02-15-Git指令整理/" rel="next" title="Git指令整理">
+                <i class="fa fa-chevron-left"></i> Git指令整理
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/07/19/2017-07-19-Swift的HMAC和SHA1加密/" rel="prev" title="Swift的HMAC和SHA1加密">
+                Swift的HMAC和SHA1加密 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -464,6 +462,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -484,8 +486,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -536,6 +547,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#git-revert-和-git-reset-的区别"><span class="nav-number">1.</span> <span class="nav-text">git revert 和 git reset 的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#代码回退"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">代码回退</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#可以吃的后悔药-gt-版本穿梭"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">可以吃的后悔药-&gt;版本穿梭</span></a></li></ol></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -669,6 +696,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
